@@ -23,3 +23,8 @@ ark-bls12-377 = { version = "0.3.0", default-features = false, features = [ "cur
 [[bench]]
 name = "bench"
 harness = false
+
+[[bin]]
+name = "zprize-msm-samples"
+path = "test_code/src/main.rs"
+
